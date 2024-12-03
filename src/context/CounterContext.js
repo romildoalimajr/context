@@ -8,7 +8,7 @@ export const CounterContext = createContext();
 // 2 - criar provider
 
 export const CounterContextProvider = ({ children }) => {
-    const [counter, setCounter] = useState(45);
+    const [counter, setCounter] = useState(0);
 
     return (
 
